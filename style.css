@@ -1,0 +1,2004 @@
+.body{
+    margin:0%;
+    padding:0%;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75) ,rgba(0,0,0,0.75)),url(./img/popular-courses-to-study-in-new-zealand.webp);
+    background-size: cover;
+    background-position: center;
+}
+.design{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+}
+.design h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.design p{
+    margin: 20px auto;
+    font-weight: 200;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 28px;
+    font-weight: bold;
+    border: 5px solid #184a46;
+    background:transparent;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+}
+.span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    transition: 0,5s;
+}
+.button:hover span{
+    width: 100%;
+    cursor:pointer;
+}
+.button:hover{
+    border: none;
+}
+#header{
+    height: 100vh;
+    background-image: url(./img/WhatsApp\ Image\ 2022-07-12\ at\ 9.07.12\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.btn {
+    border:none;
+    background-color: rgb(190, 50, 50);
+    color: rgb(255, 255, 255);
+    padding: 90px 80px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #d2463c;
+    transition:ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+  }
+  /* Red */
+.ScientificDivision {
+    border-color: #dc362a;
+    color: red
+  }
+  .btn:hover{
+    box-shadow:inset 300px 0 0 0 #d97871 ;
+  }
+  
+  .btn1 {
+    border:none;
+    background-color: rgb(39, 76, 179);
+    color: rgb(255, 255, 255);
+    padding: 90px 80px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #42409e;
+    transition:ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+  }
+  /* Blue */
+.LiteraryDivision {
+    border-color: #2196F3;
+    color: dodgerblue
+  }
+.btn1:hover{
+    box-shadow:inset 300px 0 0 0 #353396 ;
+  }
+
+
+.iconer img{
+    width: 150px;
+    
+}
+.top-container {
+    background-color: #eaeaea;
+    padding: 30px;
+    text-align: center;
+
+}
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: rgb(168, 167, 167);
+    color: #4a4aaf;
+    font-size: 30px;
+  }
+  
+  /* Page content */
+  .content {
+    color: #4a4aaf;
+    padding: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 28px;
+  }
+  .contant2{
+    color: #897022;
+    padding: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 28px;
+  }
+ .topics {
+    color: #4a4aaf;
+    padding: 5px;
+    font-size: 28px;
+ }
+ .topic1 {
+    color: #4a4aaf;
+    padding: 2px;
+    font-size: 28px;
+ }
+ .topic2{
+    color: #4a4aaf;
+    padding: 2px;
+    font-size: 28px;
+ }
+ .topic3{
+    color: #4a4aaf;
+    padding: 2px;
+    font-size: 28px;
+ }
+  .list{
+ color: #4a4aaf;
+ font-family: monospace;
+ font-weight: bold;
+padding: 10px;
+font-size: 20px;
+  }
+.AC{
+    color: #4a4aaf;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;  
+}
+.AD{
+    color: #4a4aaf;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;
+}
+.AE{
+    color: #4a4aaf;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px; 
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+/*-----------------------------------------lil--------------------------*/
+.header-lil {
+  padding: 10px 16px;
+  background: rgb(168, 167, 167);
+  color: #cb536f;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Page content */
+.content-lil {
+  color: #cb536f;
+  padding: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 28px;
+}
+.contant-lil{
+  color: #cb536f;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 28px;
+}
+.topic-lil {
+  color: #e08096;
+  padding: 5px;
+  font-size: 28px;
+}
+.list-lil{
+color: #e08096;
+font-weight: bold;
+font-size: 25px;
+}
+.LC{
+  color: #e08096;
+  padding: 6px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;  
+}
+.LD{
+  color: #e08096;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;
+}
+.LE{
+  color: #e08096;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px; 
+}
+.sticky-lil {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky-lil+ .content-lil {
+  padding-top: 102px;
+}
+/*--------------------------------------------------------------------------------------*/
+.header-lil2 {
+  padding: 10px 16px;
+  background: rgb(196, 194, 194);
+  color: #74a5de;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Page content */
+.content-lil2 {
+  color: #4181ca;
+  padding: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 28px;
+}
+.contant-lil2{
+  color: #4181ca;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 28px;
+}
+.topic-lil2 {
+  color: #4181ca;
+  padding: 5px;
+  font-size: 28px;
+}
+.topics-lil2 p{
+  color: #2e72c0;
+  padding: 5px;
+  font-size: 28px;
+}
+.list-lil2{
+color: #4181ca;
+font-weight: bold;
+font-size: 25px;
+}
+.LC2{
+  color: #2973c8;
+  padding: 6px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;  
+}
+.LD2{
+  color: #2973c8;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;
+}
+.LE2{
+  color: #2973c8;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px; 
+}
+.sticky-lil2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky-lil2+ .content-lil2 {
+  padding-top: 102px;
+}
+
+  /* the soucnd Header */
+  .header2 {
+    padding: 10px 16px;
+    background: rgb(168, 167, 167);
+    color: #cfd243;
+    font-size: 30px;
+  }
+  /* the 2 */
+.contant {
+  color: #8c7815;
+  padding: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 28px;
+}
+.listdector{
+  color:#836f0c;
+  font-family: monospace;
+  font-weight: bold;
+ padding: 10px;
+ font-size: 20px;
+}
+.topicdr {
+  color: #836f0c;
+  padding: 5px;
+  font-size: 28px;
+
+}
+.BC {
+  color: #8c7815;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;  
+}
+.topicdr2{
+  color: #836f0c;
+  padding: 5px;
+  font-size: 28px;
+}
+.BD{
+  color: #8c7815;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;  
+}
+.topicdr3{
+  color: #836f0c;
+  padding: 5px;
+  font-size: 28px;
+}
+.BE{
+  color: #8c7815;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;  
+}
+.topicdr4{
+  color: #836f0c;
+  padding: 5px;
+  font-size: 28px;
+}
+.BO{
+  color: #8c7815;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 40px;  
+}
+.topicdr5{
+  color: #836f0c;
+  padding: 5px;
+  font-size: 28px;
+}
+/* computer eng */
+.body{
+  margin:0%;
+}
+.maheader{
+  height: 100vh;
+}
+.logopage1 img{
+  width: 150px;
+}
+.logopage1 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d2463c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #d97871;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+#menuBtn {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*--------------idenficition------------- */
+#defind-text h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #eb7d75;
+  font-weight: bold;
+}
+#defind-text p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d95349;
+  margin-left: 20px;
+  font-size:larger;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title1 p{
+  color: rgb(255, 174, 174);
+  font-size: 18px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+#best-university ul li a{
+  margin: 129px 10px;
+  color: #d95349;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 30px;
+  text-decoration: none;
+}
+#best-university ul li img {
+  width: 40px;
+}
+#best-university h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #d95349;
+   font-weight: bold;
+} 
+#Famous-Engineers{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #eb7d75;
+   font-weight: bold;
+}
+.endline h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #eb7d75;
+   font-weight: bold;
+   text-align: center;
+}
+/*----------------------------------------------------eng---------------------------------------------*/
+.maheader-ENG{
+  height: 100vh;
+}
+.logopage-ENG img{
+  width: 150px;
+}
+.logopage-ENG h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d2463c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sideNav-ENG {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #d97871;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+#menuBtn-ENG {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+#defind-text-ENG h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #eb7d75;
+   font-weight: bold;
+ }
+ #defind-text-ENG p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #d95349;
+   margin-left: 20px;
+   font-size:larger;
+ }
+ .card-ENG  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ .title1-ENG  p{
+   color: rgb(255, 174, 174);
+   font-size: 18px;
+ }
+ .card2-ENG  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ .card3-ENG  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ #best-university-ENG h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #eb7d75;
+  font-weight: bold;
+ }
+ #best-university-ENG p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d95349;
+  margin-left: 5px;
+  font-size:larger;
+ }
+ #best-university-ENG  ul li a{
+   margin: 10px 10px;
+   color: #d95349;
+   font-weight: bold;
+   list-style-type: circle;
+   font-size: 30px;
+   text-decoration: none;
+ }
+ #best-university-ENG  ul li img {
+   width: 40px;
+ }
+ #best-university-ENG  h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d95349;
+    font-weight: bold;
+ } 
+ #Famous-Engineers-ENG {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin:auto;
+   text-align: center;
+ }
+ .endline-ENG {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eb7d75;
+    font-weight: bold;
+ }
+ .endline-ENG  h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eb7d75;
+    font-weight: bold;
+    text-align: center;
+ }
+ /*----------------------------------------------------ARB-----------------------------------------*/
+ .maheader-ARB{
+  height: 100vh;
+}
+.logopage-ARB img{
+  width: 150px;
+}
+.logopage-ARB h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #023c03;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-ARB h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #023c03;
+   font-weight: bold;
+ }
+ #defind-text-ARB p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:  #1e5d1f;
+   margin-left: 20px;
+   font-size:larger;
+ }
+#sideNav-ARB {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #023c03;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+#menuBtn-ARB {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+ .card-ARB  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ .title1-ARB  p{
+   color: #1e5d1f;
+   font-size: 18px;
+ }
+ .card2-ARB  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ .card3-ARB  {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+ }
+ #best-university-ARB h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #023c03;
+  font-weight: bold;
+ }
+ #best-university-ARB p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1e5d1f;
+  margin-left: 5px;
+  font-size:larger;
+ }
+ #best-university-ARB  ul li a{
+   margin: 10px 10px;
+   color: #1e5d1f;
+   font-weight: bold;
+   list-style-type: circle;
+   font-size: 30px;
+   text-decoration: none;
+ }
+ #best-university-ARB  ul li img {
+   width: 40px;
+ }
+ #best-university-ARB  h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #023c03;
+    font-weight: bold;
+ } 
+ #Famous-Engineers-ARB {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   margin:auto;
+   text-align: center;
+ }
+ .endline-ARB {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1e5d1f;
+    font-weight: bold;
+ }
+ .endline-ARB  h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #023c03;
+    font-weight: bold;
+    text-align: center;
+ }
+/*-------------------------------MEh engeneering------------------------*/ 
+.body{
+  margin:0%;
+}
+.header-mch{
+  height: 100vh;
+}
+.logopage-mch img{
+  width: 150px;
+}
+.logopage-mch h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2d4991;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-mch h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4366bf;
+  font-weight: bold;
+}
+#defind-text-mch p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3654a1;
+  margin-left: 20px;
+  font-size:larger;
+}
+#best-university-mch h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #3654a1;
+     font-weight: bold;
+     text-align: center;
+  } 
+#best-university-mch{
+  margin: 129px 10px;
+}
+
+  #best-university-mch ul li a{
+    margin: 50px 10px;
+    color:#3654a1;
+    font-weight: bold;
+    list-style-type: circle;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  #best-university-mch ul li img {
+    width: 55px;
+  }
+  .card-mch {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title1-mch p{
+  color: #607dc7;
+  font-size: 18px;
+}
+.card2-mch {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-mch {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-mch{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #3654a1;
+   font-weight: bold;
+}
+.endline-mch h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #3654a1;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-mch {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #5069d7;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-mch {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*---------------------------------------------POL---------------------------------------------*/
+.body{
+  margin:0%;
+}
+.header-POL{
+  height: 100vh;
+}
+.logopage-POL img{
+  width: 150px;
+}
+.logopage-POL h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2d4991;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-POL h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4366bf;
+  font-weight: bold;
+}
+#defind-text-POL p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3654a1;
+  margin-left: 20px;
+  font-size:larger;
+}
+#best-university-POL h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #3654a1;
+     font-weight: bold;
+     text-align: center;
+  } 
+  #best-university-POL ul li a{
+    margin: 40px 10px;
+    color:#3654a1;
+    font-weight: bold;
+    list-style-type: circle;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  #best-university-POL ul li img {
+    width: 55px;
+  }
+  .card-POL {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title1-POL p{
+  color: #607dc7;
+  font-size: 18px;
+}
+.card2-POL {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-POL {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-POL{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #3654a1;
+   font-weight: bold;
+}
+.endline-POL h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #3654a1;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-POL {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #5069d7;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-POL {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*------------------------------------------------Nuclear Engineering-------------------------------*/
+.body{
+  margin:0%;
+}
+.header-NU{
+  height: 100vh;
+}
+.logopage-NU img{
+  width: 150px;
+}
+.logopage-NU h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #5c2d91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-NU h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8351bd;
+  font-weight: bold;
+}
+#defind-text-NU p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #713dad;
+  margin-left: 20px;
+  font-size:larger;
+}
+#best-university-NU h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #713dad;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-NU{
+margin: 30px 10px;
+}
+
+#best-university-NU ul li a{
+  margin: 60px 10px;
+  color:#713dad;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-NU ul li img {
+  width: 55px;
+}
+.card-NU {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title1-NU p{
+  color: #713dad;
+  font-size: 18px;
+}
+.card2-NU {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-NU {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-NU{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-NU{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #713dad;
+   font-weight: bold;
+}
+.endline-NU h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #713dad;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-NU {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #8164a3;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-NU {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*---------------------------------------the industrial engineering-------------------------------------*/
+.body{
+  margin:0%;
+}
+.header-IND{
+  height: 100vh;
+}
+.logopage-IND img{
+  width: 150px;
+}
+.logopage-IND h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0d671e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-IND h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2b823b;
+  font-weight: bold;
+}
+#defind-text-IND p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #357a41;
+  margin-left: 20px;
+  font-size:larger;
+}
+#defind-text-IND h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2b823b;
+  font-weight: bold;
+}
+#best-university-IND h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #2b823b;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-IND{
+margin: 30px 10px;
+}
+
+#best-university-IND ul li a{
+  margin: 60px 10px;
+  color:#2b823b;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-IND ul li img {
+  width: 55px;
+}
+.card-IND {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card2-IND {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-IND {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-IND{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-IND {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #357a41;
+   font-weight: bold;
+}
+.endline-IND h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #2b823b;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-IND {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #5aa568;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-IND {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*--------------------------------------------------Dentist-----------------------------------------*/ 
+.body{
+  margin:0%;
+}
+.header-DR{
+  height: 100vh;
+}
+.logopage-DR img{
+  width: 150px;
+}
+.logopage-DR h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffb300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-DR h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffb300;
+  font-weight: bold;
+}
+#defind-text-DR p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffd269;
+  margin-left: 20px;
+  font-size:larger;
+}
+#defind-text-DR h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffb300;
+  font-weight: bold;
+}
+#best-university-DR h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ffb300;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-DR {
+margin: 30px 10px;
+}
+
+#best-university-DR ul li a{
+  margin: 60px 10px;
+  color:#ffb300;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-DR ul li img {
+  width: 55px;
+}
+.card-DR {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card2-DR {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-DR {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-DR{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-DR{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ffb300;
+   font-weight: bold;
+}
+.endline-DR h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ffb300;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-DR {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #ffd164;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-DR {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*----------------------------------------------------- human -----------------------------------------------*/ 
+.body{
+  margin:0%;
+}
+.header-DR1{
+  height: 100vh;
+}
+.logopage-DR1 img{
+  width: 150px;
+}
+.logopage-DR1 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #191c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-DR1 h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #191c1c;
+  font-weight: bold;
+}
+#defind-text-DR1 p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#303434;
+  margin-left: 20px;
+  font-size:larger;
+}
+#defind-text-DR1 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #191c1c;
+  font-weight: bold;
+}
+#best-university-DR1 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #454646;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-DR1 {
+margin: 30px 10px;
+}
+
+#best-university-DR1 ul li a{
+  margin: 60px 10px;
+  color:#191c1c;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-DR1 ul li img {
+  width: 55px;
+}
+.card-DR1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card2-DR1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-DR1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-DR1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-DR1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #191c1c;
+   font-weight: bold;
+}
+.endline-DR1 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #191c1c;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-DR1 {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #2d2f2f;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-DR1 {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*------------------------------------------nitrition----------------------------------*/
+.body{
+  margin:0%;
+}
+.header-DR11{
+  height: 100vh;
+}
+.logopage-DR11 img{
+  width: 150px;
+}
+.logopage-DR11 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-DR11 h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  font-weight: bold;
+}
+#defind-text-DR11 p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#795d29;
+  margin-left: 20px;
+  font-size:larger;
+}
+#defind-text-DR11 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  font-weight: bold;
+}
+#best-university-DR11 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #674911;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-DR11 {
+margin: 30px 10px;
+}
+
+#best-university-DR11 ul li a{
+  margin: 60px 10px;
+  color:#674911;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-DR11 ul li img {
+  width: 55px;
+}
+.card-DR11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card2-DR11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-DR11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-DR11{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-DR11{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #674911;
+   font-weight: bold;
+}
+.endline-DR11 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #4e3609;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-DR11 {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #8f7037;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-DR11 {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*-----------------------------------------------------LAW---------------------------------------------------*/
+.body{
+  margin:0%;
+}
+.header-LAW{
+  height: 100vh;
+}
+.logopage-LAW img{
+  width: 150px;
+}
+.logopage-LAW h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#defind-text-LAW h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  font-weight: bold;
+}
+#defind-text-LAW p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#795d29;
+  margin-left: 20px;
+  font-size:larger;
+}
+#defind-text-LAW h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #674911;
+  font-weight: bold;
+}
+#best-university-LAW h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #674911;
+   font-weight: bold;
+   text-align: center;
+} 
+#best-university-LAW {
+margin: 30px 10px;
+}
+
+#best-university-LAW ul li a{
+  margin: 60px 10px;
+  color:#674911;
+  font-weight: bold;
+  list-style-type: circle;
+  font-size: 28px;
+  text-decoration: none;
+}
+#best-university-LAW ul li img {
+  width: 55px;
+}
+.card-LAW {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card2-LAW {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card3-LAW {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+#Famous-Engineers-LAW{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+}
+.endline-LAW{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #674911;
+   font-weight: bold;
+}
+.endline-LAW h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #4e3609;
+   font-weight: bold;
+   text-align: center;
+}
+#sideNav-LAW {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right:-250px;
+  top: 0;
+  background: #8f7037;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 60px 3px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+#menuBtn-LAW {
+width: 35px;
+padding-left: 50px;
+position: fixed;
+right: 65px;
+top: 35px;
+z-index: 2;
+cursor: pointer;
+}
+/*------------------------------------------------calculation----------------------*/
+body{
+  margin: 0%;
+}
+.detremaint{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75) ,rgba(0,0,0,0.75)),url(./img/Calculator\ a\ background590.avif);
+  background-size: cover;
+  background-position: center;
+}
+.detremaint h1{
+  font-size: 50px;
+  margin-top: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #eaeaea;
+  margin-top: 2px;
+  padding-top: 20px;
+}
+#calculator{
+  width: 330px;
+  height: 520px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+.button-cal{
+  width: 200px;
+    padding: 15px 0;
+    text-align: left;
+    margin: 20px 10px;
+    font-weight: bold;
+    background:transparent;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+}
+.button-cal:hover span{
+  width: 100%;
+  cursor:pointer;
+}
+.button-cal:hover{
+  border: none;
+}
+/*--------------------------------------------------------------------------------------------*/
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*----------------------------------------------------------------------------------------*/
+.pagination3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination3 a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination3 a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination3 a:hover:not(.active) {background-color: #ddd;}
+
+.pagination4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination4 a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination4 a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination4 a:hover:not(.active) {background-color: #ddd;}
+/*-----------------------------------------------------------------------------------------------*/
+.header2 {
+  padding: 10px 16px;
+  background: rgb(253, 250, 167);
+  color: #8a6a20;
+  text-align: center;
+}
+
+.content2 {
+  padding: 16px;
+}
+
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky2 + .content2 {
+  padding-top: 102px;
+}
+/*--------------------------------------------------------------*/
+.header {
+  padding: 10px 16px;
+  background: rgb(157, 157, 157);
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/*----------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #8d8d8d;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previous1 {
+  background-color: #b0b0b0;
+  color: black;
+}
+.previous3 {
+  background-color: #b0b0b0;
+  color: black;
+width: 20px;
+}
+.previous4 {
+  background-color: #b0b0b0;
+  color: black;
+width: 20px;
+}
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; 
+  left: -80px; 
+  transition: 0.3s;
+  padding: 50px;
+  width: 150px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white; 
+  border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+
+#blog {
+  top: 250px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 400px;
+  background-color: #f44336; /* Red */
+}
+.buttonss p{
+  margin: 20px auto;
+    font-weight: 200;
+    line-height: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ddd; 
+    font-weight: bolder;
+}
